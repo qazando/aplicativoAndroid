@@ -377,7 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android Instrumented Tests.TesteComBarista">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -510,12 +510,12 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeiroTeste()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="SoUmElemento()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="PrimeiroTeste" />
-      <option name="CLASS_NAME" value="com.example.heitorcolangelo.espressotests.EspressoVersao1.CasosDeTestesVersao1" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="android.support.test.runner.AndroidJUnitRunner" />
+      <option name="METHOD_NAME" value="SoUmElemento" />
+      <option name="CLASS_NAME" value="com.example.heitorcolangelo.espressotests.TesteComMock.TesteComMock1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -559,12 +559,12 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoUmElemento()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="TesteComBarista" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
-      <option name="TESTING_TYPE" value="3" />
+      <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="android.support.test.runner.AndroidJUnitRunner" />
-      <option name="METHOD_NAME" value="SoUmElemento" />
-      <option name="CLASS_NAME" value="com.example.heitorcolangelo.espressotests.TesteComMock.TesteComMock1" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.qazando.espressotests.TesteComBarista" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -825,11 +825,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android Instrumented Tests.TesteComBarista" />
         <item itemvalue="Android Instrumented Tests.TesteNumero2()" />
         <item itemvalue="Android Instrumented Tests.SoUmElemento()" />
         <item itemvalue="Android Instrumented Tests.FalharOTesteRquisi...()" />
         <item itemvalue="Android Instrumented Tests.mostrarTodosUsuari...()" />
-        <item itemvalue="Android Instrumented Tests.PrimeiroTeste()" />
       </list>
     </recent_temporary>
   </component>
